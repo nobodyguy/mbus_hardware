@@ -1,2 +1,2 @@
-# mbus_hardware
-M-bus to USB
+# M-bus to USB
+KiCAD 6.X required
