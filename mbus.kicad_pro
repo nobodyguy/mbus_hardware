@@ -236,9 +236,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "mbus_lib"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "mbus.kicad_pro",
