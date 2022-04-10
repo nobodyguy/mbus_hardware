@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name "mbus_lib")(type "KiCad")(uri "${KIPRJMOD}/mbus_lib.pretty")(options "")(descr ""))
 )
