@@ -9,6 +9,7 @@ CH340E is 5V only IC without additional 3.3V regulator. Even its RX/TX pins are 
 Use PL2303GL instead when CH340E is not available and change MBUS logic to 3.3V (replace R6 and R10).
 
 ## Board overview
+![Photo](images/photo.jpg)
 ![Render](images/render.jpg)
-![Schematic](images/schematic.jpg)
 ![PCB](images/pcb.jpg)
+![Schematic](images/schematic.jpg)
