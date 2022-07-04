@@ -1590,7 +1590,7 @@ module baseShell()
         subtrbaseRidge(shellInsideLength+wallThickness, 
                         shellInsideWidth+wallThickness, 
                         ridgeHeight, 
-                        (ridgeHeight*-1), roundRadius);
+                        -ridgeHeight+0.5, roundRadius);
       }
       
     } // difference(b)

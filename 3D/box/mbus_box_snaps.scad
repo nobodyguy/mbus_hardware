@@ -276,4 +276,4 @@ difference(){
         }  
         */
 }
-translate([pcbX+pcbLength/2, pcbY+pcbWidth/2, basePlaneThickness+standoffHeight]) color("grey") import("./mbus_pcb.stl");
+//translate([pcbX+pcbLength/2, pcbY+pcbWidth/2, basePlaneThickness+standoffHeight]) color("grey") import("./mbus_pcb.stl");
