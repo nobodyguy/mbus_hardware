@@ -55,7 +55,7 @@ roundRadius         = 0.5;
 // to leave room for solderings and whatnot
 standoffHeight      = 4.0;
 pinDiameter         = 2.0;
-pinHoleSlack        = -0.2;
+pinHoleSlack        = 0.1;
 standoffDiameter    = 4.0;
 
 // Total height of box = basePlaneThickness + lidPlaneThickness 
@@ -91,10 +91,10 @@ labelsPlane = [];
 // (2) = { yappBoth | yappLidOnly | yappBaseOnly }
 // (3) = { yappHole, YappPin }
 pcbStands = [
-                [2.60,  2.55, yappBaseOnly, yappHole],
-                [pcbLength-2.32,  pcbWidth-2.40, yappBaseOnly, yappHole],
-                [pcbLength-2.32,  2.55, yappBaseOnly, yappHole],
-                [2.60, pcbWidth-2.40, yappBaseOnly, yappHole],
+                [2.60,  2.55, yappBoth, yappPin],
+                [pcbLength-2.32,  pcbWidth-2.40, yappBoth, yappPin],
+                [pcbLength-2.32,  2.55, yappBoth, yappPin],
+                [2.60, pcbWidth-2.40, yappBoth, yappPin],
              ];   
 
 //-- Lid plane    -- origin is pcb[0,0,0]
@@ -213,6 +213,7 @@ cutoutsBack =   [
 // (1) = width
 // (2..5) = yappLeft / yappRight / yappFront / yappBack (one or more)
 // (n) = { yappSymmetric }
+/*
 snapJoins   =     [
                     [2, 10, yappLeft, yappRight, yappSymmetric]
               //    [5, 10, yappLeft]
@@ -220,7 +221,7 @@ snapJoins   =     [
                //   , [30,  10, yappFront, yappBack]
               //  , [2.5, 3, 5, yappBack, yappFront, yappSymmetric]
                 ];
-               
+*/               
 //-- origin of labels is box [0,0,0]
 // (0) = posx
 // (1) = posy/z
